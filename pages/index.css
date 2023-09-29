@@ -1,5 +1,15 @@
 @import url(/blocks/header.css);
 
+@import url(/blocks/intro.css);
+
+@import url(/blocks/photo.css);
+
+@import url(/blocks/place.css);
+
+@import url(/blocks/cover.css);
+
+@import url(/blocks/footer.css);
+
 body{
     max-width: 1280px;
     background-color: #2A2C2F;
@@ -8,10 +18,33 @@ body{
 
 .section__title{
     color: #FFF;
+    font-family: Inter;
     font-weight: 900;
 }
 
 .section__subtitle{
     color: #FFF;
+    font-family: Inter;
     font-weight: 400;
+}
+
+.section__text{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.section__button{
+    border-radius: 4px;
+    background: #0278FE;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px 20px;
+    transition: all 0.3s ease;
+}
+
+.section__button:hover{
+    background: #0063D2;
 }

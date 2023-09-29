@@ -1,0 +1,78 @@
+.places{
+  margin: auto;
+}
+
+.place{
+  margin: auto;
+  margin-top: 92px;
+  display: grid;
+  justify-content: center;
+  grid-template-areas:
+      "titulo artista"
+      "imagem texto"
+      "imagem texto"
+      "botao texto"
+  ;
+  grid-column-gap: 40px;
+}
+
+.section__title-place{
+  margin: auto;
+  margin-bottom: 48px;
+  grid-area: titulo;
+  font-size: 4.5rem;
+  font-style: normal;
+  line-height: 105.556%;
+  max-width: 468px;
+}
+
+.place__image{
+  grid-area: imagem;
+  max-width: 460px;
+  max-height: 460px;
+}
+
+.section__button-place{
+  margin-top: 48px;
+  grid-area: botao;
+  max-width: 315px;
+  max-height: 22px;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.place__author{
+  grid-area: artista;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 48px;
+}
+
+.place__author-text{
+  margin: 0;
+  margin-bottom: 8px;
+  color: #AAA;
+  font-size: 12px;
+  line-height: normal;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+}
+
+
+.section__text-place{
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 163%;
+}
+
+.place__text-about{
+  grid-area: texto;
+  display: grid;
+  max-width: 484px;
+  row-gap: 27px;
+}

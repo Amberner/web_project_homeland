@@ -1,0 +1,66 @@
+.cover{
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 92px;
+  margin-bottom: 92px;
+  max-width: 1184px;
+  max-height: 740px;
+
+}
+
+.cover__block{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.cover__image{
+  max-width: 100%;
+  display: block;
+  opacity: 0.7;
+  background: #2A2C2F;
+}
+
+.cover__block-element{
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.cover__block-element_position{
+  position: absolute;
+  padding: 100%;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s ease ;
+}
+
+.cover__block-element_position:hover {
+  background-color: rgba(42, 44, 47, 0.7); /* Cor de fundo semi-transparente */
+}
+
+
+.section__title-cover{
+  min-width: 656px;
+  margin: auto;
+  margin-bottom: 32px;
+  font-size: 72px;
+  text-align: center;
+  font-style: normal;
+  line-height: 76px;
+}
+
+.section__text-cover{
+  max-width: 280px;
+  margin: auto;
+  margin-bottom: 32px;
+}
+
+.section__button-cover{
+  margin: auto;
+  text-decoration: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
