@@ -35,7 +35,7 @@
 }
 
 .cover__block-element_position:hover {
-  background-color: rgba(42, 44, 47, 0.7); /* Cor de fundo semi-transparente */
+  background-color: rgba(42, 44, 47, 0.7);
 }
 
 
@@ -61,6 +61,30 @@
   color: #FFF;
   font-family: Inter;
   font-size: 18px;
+  padding: 13px;
   font-style: normal;
   line-height: normal;
+}
+
+@media screen and (max-width: 768px){
+  .cover{
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover{
+    max-height: 254px;
+  }
+  .section__title-cover{
+    margin-bottom: 16px;
+    font-size: 2rem;
+    line-height: 109.375%;
+  }
+
+  .section__text-cover{
+    margin-bottom: 16px;
+    font-size: 0.875rem;
+    line-height: 114.286%;
+  }
 }

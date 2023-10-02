@@ -32,3 +32,52 @@
     font-size: 1rem;
     line-height: 163%;
 }
+
+@media screen and (max-width:780px){
+  .intro{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 64px;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro{
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 38px;
+    max-width: 320px;
+  }
+
+  .section__title-intro{
+    max-width: 288px;
+    font-size: 2rem;
+    line-height: 109.375%;
+  }
+
+  .section__subtitle-intro{
+    margin: auto 0;
+    margin-top: 54px;
+    max-width: 288px;
+    line-height: 125%
+    font-size: 1.5rem;
+  }
+
+  .section__subtitle-intro_author{
+    margin-top: 55px;
+    font-size: 1.5rem;
+    line-height: 141.667%;
+  }
+
+  .section__text-intro{
+    margin: auto 0;
+    margin-top: 18px;
+    max-width: 288px;
+    line-height: 163%;
+    font-size: 1rem;
+  }
+}

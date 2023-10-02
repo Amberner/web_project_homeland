@@ -41,10 +41,21 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 13px 20px;
+
     transition: all 0.3s ease;
 }
 
 .section__button:hover{
     background: #0063D2;
+}
+
+@media screen and (max-width: 780px){
+  .section__title{
+    font-size: 2.625rem;
+    line-height: 109.524%;
+  }
+
+  .section__button{
+
+  }
 }
