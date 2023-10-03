@@ -1,3 +1,7 @@
+@import url(/vendor/normalize.css);
+
+@import url(/font/config/Inter\ Web/inter.css);
+
 @import url(/blocks/header.css);
 
 @import url(/blocks/intro.css);
@@ -41,7 +45,6 @@ body{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     transition: all 0.3s ease;
 }
 
@@ -53,9 +56,5 @@ body{
   .section__title{
     font-size: 2.625rem;
     line-height: 109.524%;
-  }
-
-  .section__button{
-
   }
 }

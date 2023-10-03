@@ -1,8 +1,8 @@
 .header{
     display: grid;
     justify-content: center;
-    justify-items: center ;
-    margin-top: 35px ;
+    justify-items: center;
+    margin-top: 35px;
     margin-bottom: 92px;
 }
 
@@ -75,7 +75,7 @@
     margin-top: 60px;
     max-width: 288px;
     font-size: 1rem;
-    line-height: 125% ;
+    line-height: 125%;
   }
 
    .header__image{
