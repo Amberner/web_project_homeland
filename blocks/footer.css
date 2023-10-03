@@ -9,7 +9,11 @@
   justify-content: center;
 }
 
-.section__text-footer{
+.footer__text{
+  color: #FFF;
+  font-family: Inter;
+  font-weight: 400;
+  font-style: normal;
   margin: 0;
   text-align: right;
   font-size: 14px;

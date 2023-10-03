@@ -3,7 +3,10 @@
     margin: 0 304px 92px auto;
   }
 
-.section__title-intro{
+.intro__title{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 900;
     max-width: 828px;
     margin:0 auto;
     margin-bottom: 75px;
@@ -12,7 +15,10 @@
     line-height: 107.407%;
 }
 
-.section__subtitle-intro{
+.intro__subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
     max-width: 736px;
     margin: 0;
     font-size: 1.5rem;
@@ -20,12 +26,19 @@
     line-height: 141.667%;
 }
 
-.section__subtitle-intro_author{
+.intro__subtitle_author{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
     text-align: right;
     margin-top: 9px;
 }
 
-.section__text-intro{
+.intro__text{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
     margin-top: 32px;
     max-width: 720px;
@@ -41,6 +54,9 @@
     margin-bottom: 64px;
     max-width: 720px;
   }
+  .intro__title{
+    font-size: 3rem;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -53,13 +69,13 @@
     max-width: 320px;
   }
 
-  .section__title-intro{
+  .intro__title{
     max-width: 288px;
     font-size: 2rem;
     line-height: 109.375%;
   }
 
-  .section__subtitle-intro{
+  .intro__subtitle{
     margin: auto 0;
     margin-top: 54px;
     max-width: 288px;
@@ -67,13 +83,13 @@
     font-size: 1.5rem;
   }
 
-  .section__subtitle-intro_author{
+  .intro__subtitle_author{
     margin-top: 55px;
     font-size: 1.5rem;
     line-height: 141.667%;
   }
 
-  .section__text-intro{
+  .intro__text{
     margin: auto 0;
     margin-top: 18px;
     max-width: 288px;

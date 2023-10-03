@@ -10,7 +10,9 @@
     margin: 0;
 }
 
-.section__title-header{
+.header__title{
+    color: #FFF;
+    font-family: Inter;
     max-width: 793px;
     margin: 0;
     margin-top: 90px;
@@ -21,7 +23,10 @@
     line-height: 104.167%;
 }
 
-.section__subtitle-header{
+.header__subtitle{
+    color: #FFF;
+    font-family: Inter;
+    font-weight: 400;
     max-width: 720px;
     margin: 0;
     margin-top: 35px;
