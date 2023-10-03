@@ -66,7 +66,6 @@
 .places__link {
   margin: 0;
   color: white;
-
   font-weight: 600;
   max-width: 315px;
   padding: 13px 20px;
@@ -77,7 +76,7 @@
   transition: 0.2s;
 }
 .places__link:hover {
-  opacity: 80%;
+  background: #0063D2;
 }
 
 

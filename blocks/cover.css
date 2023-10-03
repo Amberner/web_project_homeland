@@ -31,7 +31,7 @@
   padding: 100%;
   top: 50%;
   left: 50%;
-  transition: all 0.3s ease ;
+  transition: all 0.3s ease;
 }
 
 .cover__block-element_position:hover {
@@ -76,6 +76,7 @@
   .cover{
     max-height: 254px;
   }
+
   .section__title-cover{
     margin-bottom: 16px;
     font-size: 2rem;
