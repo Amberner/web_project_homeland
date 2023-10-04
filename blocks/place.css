@@ -79,9 +79,7 @@
   background: #0063D2;
 }
 
-
-
-@media screen and (max-width: 702px) {
+@media screen and (max-width: 716px) {
   .places__grid {
       display: flex;
       flex-direction: column;
